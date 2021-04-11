@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, serif;
+    color : #163D6C;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background: #7451EB;
+    color : white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin : auto;
+}
+
+header img, header div {
+    margin: 30px;
+}
+
+header h1, header h2{
+    margin : 0 0;
+}
+
+span{
+    background-color: #09EDA3;
+    color : #163D6C;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin : 30px;
+}
+
+section div, section img{
+    width : 50%;
+}
+
+section img{
+    max-width: 300px;
+}
+
+footer{
+    background-color: #003668;
+    color : white;
+    padding: 30px;
+}
+
+footer div p {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: auto;
+}
+
+footer p, footer h1{
+    margin: 0 0
+}
+
+footer div p a {
+    margin : 30px 10px 10px 10px;
+}
